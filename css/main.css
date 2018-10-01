@@ -1,0 +1,315 @@
+*{
+	    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	    font-weight: 300;
+	    margin: 0;
+
+}
+
+body{
+
+}
+
+ hr {
+	max-width: 700px;
+	margin: auto;
+	border: 0;
+	border: 1px solid #727878;
+	opacity: 0.2;
+
+}
+
+p{
+	font-size: larger;
+}
+
+
+/*=======================Home Wrapper=============================*/
+#home_wrapper{
+	background: url(../images/imac.jpg) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; /* First value is from left and second is from top. You can use use number as well*/
+	color: #fff;
+	width: 100%;
+	min-height: 100vh;
+	border-bottom: double #fff 10px;	
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.navbar {
+	background: transparent;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 20px;
+	transition: 0.3s all linear;
+
+}
+
+#logoName {
+	clear: right;
+	margin: 35vh auto auto auto;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+}
+#logoName img{
+	width: 50%;
+}
+
+#logoName h1{
+	margin-top: -7px;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+#logoName h3{
+	font-weight: 300;
+	border:solid 1px #fff;
+	border-right: none;
+	border-left: none;
+	padding: 5px 0;
+}
+
+#pulse-arrow {
+	background: url(../images/pulse-arrow.png) center;
+	background-size: 100%;
+	opacity: .8;
+	border-radius: 7px;
+	position: absolute;
+	bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 80px;
+	-webkit-animation: pulse 1.2s linear infinite;
+	animation: pulse 1.2s linear infinite;
+
+}
+
+#pulse-arrow:hover {
+ cursor: pointer;
+}
+
+#pulse-arrow span{
+	display: block;
+}
+
+#pulse-arrow .glyphicon{
+	font-size: 60px;
+	text-align: center;
+	color: #aaa;	
+	webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	
+}
+
+@-webkit-keyframes pulse {
+	 0% {
+	 	-webkit-transform: scale(1, 1);
+	}
+	 50% {
+	 	-webkit-transform: scale(1.05, 1.05);
+	}
+	 100% {
+		-webkit-transform: scale(1, 1);
+	};
+}
+
+@keyframes pulse {
+	 0% {
+	 	transform: scale(1, 1);
+	}
+	 50% {
+	 	transform: scale(1.05, 1.05);
+	}
+	 100% {
+		transform: scale(1, 1);
+	};
+}
+
+
+
+/*===================== Profile =====================*/
+
+#profile_wrapper{
+	background-color: #acdee2;
+	padding: 6vh;
+	min-height: 90vh;
+}
+
+#profile_wrapper h1{
+
+	margin: 7% auto 2vh auto;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#profile_wrapper h4{
+	text-align: center;
+}
+#profile_wrapper p{
+	text-align: left;
+}
+
+.profileContainer{
+	margin: 2% auto 7% auto;
+	overflow: hidden;
+	text-align: center;
+	width: 80%;
+}
+.profileContainer h2{
+ color: #fff;
+ font-weight: 300;
+}
+
+#profile_wrapper .circle {
+	margin: 5% auto;
+	background: #ffffff;
+	border-radius: 50%;
+	width: 100%;
+	max-width: 220px;
+}
+
+#profile_wrapper .circle img {
+	width: 94%;
+	margin: 3%;
+}
+
+
+
+/********************** Skills **********************/
+
+#skills_wrapper{
+	color: #000;
+	background-color: #fff;
+	/*opacity: .85;*/
+	margin: 50px auto;
+	min-height: 100vh;
+} 
+
+#skills_wrapper h1{
+
+	margin: 2vh;
+	color: #d9534f;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+
+.skillsContainer{
+	max-width: 800px;
+	width: 80%;
+	margin: auto;
+}
+
+.skillsContainer .col-md-6{
+	max-width: 400px ;
+	margin: auto;
+}
+
+.skillHeader{
+	text-align: center;
+	margin: 30px auto;
+	font-weight: 300;
+
+}
+
+.skillsContainer ul{
+	list-style: none;
+
+
+}
+
+.skillsContainer ul li{
+	margin: 10px auto auto -10px;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+
+.skill{
+
+}
+
+.score{
+	color: #d9534f;
+	position: absolute;
+	right: 0;
+}
+
+/*====================== timeline Education ======================*/
+ 
+ #timeline_wrapper{
+ 	background: #F3EFE0;
+ 	min-height: 100vh;
+ 	padding-top: 60px;
+ 	padding-bottom: 100px;
+ }
+#timeline_wrapper  h1{
+	margin-bottom: 2vh;
+	color: #d9534f;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#timeline_wrapper .container{
+	margin-top: 50px;
+}
+
+
+#timeline p {
+	color: #000;
+}
+
+.timeline-panel{
+	background-color: #fff;
+}
+
+/*====================== contact ======================*/
+#contact_wrapper{
+	background-color: #434242;
+	min-height: 60vh;
+	margin: -30px auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#contact_wrapper h1{
+	text-align: center;
+	font-weight: 300;
+	font-size: 60px;
+	color: #fff;
+}
+
+#contact_wrapper .container{
+	width: 80%;
+	max-width: 800px;
+}
+
+#contact_wrapper hr{
+	margin-bottom: 100px;
+}
+
+.contact-info{
+	text-align: center;
+	color: #fff;
+	margin: 30px auto;
+	font-weight: 300;
+
+}
+
+.contact-info a{
+	color: #fff;
+}
