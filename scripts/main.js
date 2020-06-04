@@ -9,4 +9,5 @@ function changeImg() {
     document.getElementsByClassName("me")[i].hidden = i !== index
   });
   index = (index + 1) % document.getElementsByClassName("me").length;
+  console.log(document.getElementsByClassName("me").length)
 }
